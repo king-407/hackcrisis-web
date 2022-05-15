@@ -17,7 +17,7 @@ body {
 .container {
   height: auto;
   width: 100%;
-  min-height: 35rem;
+  min-height: 100vh;
   margin-top: -4rem;
   margin-right: auto;
   margin-left: auto;
@@ -25,10 +25,4 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-@media screen and (min-width: 0px) {
-  .container {
-    background-size: cover;
-    min-height: 100vh;
-}
 }
