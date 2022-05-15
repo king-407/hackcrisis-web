@@ -4,32 +4,32 @@
   display: flex;
   align-items: center;
   position: relative;
-  padding: 0.5rem 0rem;
-  
+  padding: 2rem 0rem;
+  background-color: transparent;
+  color: white;
 }
 .brand-name {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 1.3rem;
   margin-left: 1rem;
 }
 .navigation-menu {
   margin-left: auto;
-  background-color: transparent;
   color: white;
 }
 .navigation-menu ul {
   display: flex;
-  padding: 0;
-  background-color: transparent;
+  padding-right: 1rem;
   color: white;
 }
 .navigation-menu li {
   list-style-type: none;
   margin: 0 1rem;
+  color: white;
 }
 .navigation-menu li a {
-
+  color: white;
   text-decoration: none;
   display: block;
   width: 100%;
@@ -60,14 +60,18 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .navigation{
+    background-color: white;
+  }
+  .brand-name{
+    color: black;
+  }
   .navigation-menu ul {
     dipslay: none;
     position: absolute;
     top: 60px;
     left: 0;
-
     flex-direction: column;
-
     width: 100%;
     height: calc(100vh - 77px);
     background-color: white;
